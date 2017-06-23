@@ -15,9 +15,9 @@ gulp.task('minify-css', function() {
   ];
 
   var pathsToConcat = [
-    'css/animate.min.css',
     'css/bootstrap.min.css',
     'css/font-awesome.min.css',
+    'css/animate.min.css',
     'css/main.css',
     'css/responsive.css'
 

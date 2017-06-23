@@ -178,7 +178,7 @@ section.header-section {
 }
 
 .navbar>.container .navbar-brand{
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 
 .top-bar {
@@ -270,7 +270,7 @@ input.search-form:hover {
 }
 
  .navbar-nav{
-  margin-top: 12px;
+  margin-top: 12px !important;
  }
 
 .navbar-nav>li{
