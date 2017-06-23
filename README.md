@@ -8,4 +8,4 @@
 2. gulp clean
 3. gulp build
 4. install aws cli to easily push to s3 bucket
-5. aws s3 sync dist/ s3://winotstop --acl public-read
+5. aws s3 sync dist/ s3://winotstop.wineenergyportal.com --acl public-read

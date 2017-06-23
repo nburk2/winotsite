@@ -269,6 +269,15 @@ input.search-form:hover {
   padding-bottom: 0;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+  /*color: black !important;*/
+  background-color: black !important;
+}
+
+.navbar-inverse .navbar-toggle:hover > .icon-bar {
+  background-color: white !important;
+}
+
  .navbar-nav{
   margin-top: 12px !important;
  }
@@ -639,6 +648,7 @@ input.search-form:hover {
   position: relative;
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 
 .aboutus-header .container h2{
@@ -646,7 +656,7 @@ input.search-form:hover {
   color: white;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .aboutus-description .content h2 {
