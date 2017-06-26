@@ -55,8 +55,7 @@
 
     </header><!--/header-->
 
-    <section class="main-header header-section" style="padding-top:250px">
-      <!-- <div class="gradient"></div> -->
+    <!-- <section class="main-header header-section" style="padding-top:250px">
         <div class="container">
           <div class="row">
             <div class="col-md-push-1 col-md-10  wow fadeInDown" style="background-color:rgba(22, 70, 143, .4); border-radius:100px;visibility:hidden">
@@ -67,7 +66,62 @@
                </div>
             </div>
           </div>
-        </div><!--/.container-->
+        </div>
+    </section> -->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url(images/storefront.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-md-push-1 col-sm-10" style="background-color:rgba(22, 70, 143, .4); border-radius:100px;margin-top:90px">
+                                <div class="center">
+                                  <h1 class="animation animated-item-1" style="font-size:70px">Wi-Not-Stop  Wednesdays</h1>
+                                  <h2 class="animation animated-item-2">different deals every wednesday!</h2>
+                                  <a class="btn btn-success animation animated-item-3" href="specials.html">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(images/trucks.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-md-push-1 col-sm-10" style="background-color:rgba(22, 70, 143, .4); border-radius:100px;margin-top:90px">
+                                <div class="center">
+                                  <h1 class="animation animated-item-1" style="font-size:70px">Wi-Not-Stop  Wednesdays</h1>
+                                  <h2 class="animation animated-item-2">different deals every wednesday!</h2>
+                                  <a class="btn btn-success animation animated-item-3" href="specials.html">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(images/storefar.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-md-push-1 col-sm-10" style="background-color:rgba(22, 70, 143, .4); border-radius:100px;margin-top:90px">
+                                <div class="center">
+                                  <h1 class="animation animated-item-1" style="font-size:70px">Wi-Not-Stop  Wednesdays</h1>
+                                  <h2 class="animation animated-item-2">different deals every wednesday!</h2>
+                                  <a class="btn btn-success animation animated-item-3" href="specials.html">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section id="feature" class="transparent-bg">
@@ -150,5 +204,14 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.carousel').carousel({
+          interval: 5000
+        })
+      });
+    </script>
+
 </body>
 </html>
