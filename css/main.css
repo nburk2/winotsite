@@ -278,7 +278,7 @@ input.search-form:hover {
   background-color: white !important;
 }
 
- .navbar-nav{
+.navbar-nav{
   margin-top: 12px !important;
  }
 
@@ -590,8 +590,8 @@ input.search-form:hover {
 }
 
 #services {
-  /*background: #000 url(../images/services/green_bg.png);*/
-  background-size: cover;
+  /*background: url(../images/logo.png) no-repeat center center;*/
+  /*background-size: contain;*/
 }
 
 .services-wrap {
@@ -649,6 +649,7 @@ input.search-form:hover {
   color: white;
   font-size: 20px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .aboutus-header .container h2{
