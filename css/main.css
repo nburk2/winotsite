@@ -547,7 +547,7 @@ input.search-form:hover {
 }
 
 .specials-header {
-  background-image: url(../images/instore.jpg);
+  background-image: url(../images/station46.jpg);
   background-position: bottom;
   background-color: transparent;
   background-size: cover;
@@ -615,7 +615,8 @@ input.search-form:hover {
 }
 
 .aboutus-header {
-  background-image: url(../images/instore.jpg);
+  background-image: url(../images/station26.jpg);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   background-position: bottom;
   background-color: transparent;
   background-size: cover;
@@ -675,8 +676,11 @@ input.search-form:hover {
 }
 
 .aboutus-side {
-  background: #000 url(../images/trucks.jpg);
-  background-size: cover;
+  background: #000 url(../images/station7.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 100%;
 }
 
 .careers-header {
@@ -743,7 +747,7 @@ input.search-form:hover {
 }
 
 .contact-header {
-  background-image: url(../images/instore.jpg);
+  background-image: url(../images/station46.jpg);
   background-position: bottom;
   background-color: transparent;
   background-size: cover;
@@ -802,7 +806,7 @@ input.search-form:hover {
 }*/
 
 .contact-side {
-  background: #000 url(../images/trucks.jpg);
+  background: #000 url(../images/station3.jpg);
   background-size: cover;
 }
 
