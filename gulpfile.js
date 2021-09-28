@@ -63,7 +63,7 @@ gulp.task('minify-js', function() {
 });
 
 gulp.task('replace-path', function() {
-  gulp.src(['index.html','about-us.html','cafe.html','careers.html','contact-us.html',
+  return gulp.src(['index.html','about-us.html','cafe.html','careers.html','contact-us.html',
             'locations.html','specials.html','contactsuccess.html'])
     .pipe(replace(/bootstrap\.min\.css/g, 'all.css'))
     .pipe(replace(/<link href="css\/font-awesome\.min\.css" rel="stylesheet">/g, ''))
@@ -92,8 +92,9 @@ gulp.task('move', function(){
     ];
   // the base option sets the relative root for the set of files,
   // preserving the folder structure
-  gulp.src(filesToMove, { base: './' })
+  return gulp.src(filesToMove, { base: './' })
   .pipe(gulp.dest('dist'));
 });
-
-gulp.task('build', ['minify-css', 'minify-js', 'replace-path', 'move'])
+gulp.task('build',
+  gulp.series('clean', 'minify-css', 'minify-js', 'replace-path', 'move'));
+// gulp.task('build', ['minify-css', 'minify-js', 'replace-path', 'move'])
